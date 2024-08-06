@@ -276,7 +276,7 @@ onMounted(() => {
 
         <v-btn variant="outlined"
                color="error"
-               v-if="isReceptionist"
+               v-if="isReceptionist && isEditing"
                @click="remove"
                :loading="loading"
         >
