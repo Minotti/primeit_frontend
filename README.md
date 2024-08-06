@@ -1,29 +1,28 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+### Setup do projeto ###
 
-### What is this repository for? ###
+* Clone o projeto
+* npm install
+* npm run dev
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Alerta: para o frontend funcionar corretamente, o backend precisa estar exposto na porta 3008 (já deixei assim no .env.example).
+### Credenciais ###
 
-### How do I get set up? ###
+Se tudo ocorreu como previsto na configuração do backend esses são os dados para login:
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+Utente
+- Email: attendant@teste.com
+- Password: 123123
 
-### Contribution guidelines ###
+Rececionista
+- Email: receptionist@teste.com
+- Password: 123123
 
-* Writing tests
-* Code review
-* Other guidelines
+Doctor (Primeiro)
+- Email: doctor@teste.com
+- Password: 123123
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+Doctor (Segundo)
+- Email: doctor2@teste.com
+- Password: 123123
